@@ -3,5 +3,5 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('webblog/', views.cover, name='cover'),
+    path('', views.cover_page, name='cover_page'),
 ]

@@ -11,7 +11,7 @@ class CheckWebsiteDesignTest(unittest.TestCase):
         self.browser.quit()
 
     def test_visitor_comes_to_site(self):
-        self.browser.get('http://localhost:8000/webblog')
+        self.browser.get('http://localhost:8000')
         self.assertIn('Mikub Coding', self.browser.title)
         self.fail('Finish the test!')
 
