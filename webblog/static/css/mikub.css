@@ -1,0 +1,33 @@
+html, body {
+    height: 100%;
+    color: rgb(17, 16, 16);
+    background-color: rgb(216, 221, 228);
+  }
+
+  .business-font {
+    text-align: left;
+    text-shadow: 0 0 10px rgb(246, 250, 5);
+    font-size:1.2rem;
+    line-height: 1.5em;
+  }
+
+  .business-header {
+    text-align: left;
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+    font-size:1.2rem;
+    line-height: 1.5em;
+    top: 0;
+    border: 1px solid #000;
+    height: 100px;
+    background: rgb(255, 255, 255);;
+  }
+
+  .navbar ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    }
+
+  .navbar-brand{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    }

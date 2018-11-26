@@ -1,0 +1,31 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" />
+    <link rel="stylesheet" href={% static 'css/mikub.css' %}>
+    <title>Mikub Coding</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md business-header">
+        <a class="navbar-brand" href="#">Mikub Coding</a>
+        <div class="container-fluid">
+            <div class="navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"> <a class="nav-link" href="#">Blog</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="#">Über mich</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="#">Impressum</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    {% block content %}
+    {% endblock %}
+</body>
+
+</html>

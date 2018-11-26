@@ -1,9 +1,5 @@
-{% extends "webblog/cover.html" %}  {% load staticfiles %}
-{% block title %}My amazing blog{% endblock %}
+{% extends "webblog/base.html" %} {% load staticfiles %}
+
 
 {% block content %}
-{% for entry in blog_entries %}
-    <h2>{{ entry.title }}</h2>
-    <p>{{ entry.body }}</p>
-{% endfor %}
 {% endblock %}
