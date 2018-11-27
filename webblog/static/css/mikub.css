@@ -12,14 +12,11 @@ html, body {
   }
 
   .business-header {
-    text-align: left;
     text-shadow: 0 0 10px rgb(255, 255, 255);
     font-size:1.2rem;
     line-height: 1.5em;
-    top: 0;
-    border: 1px solid #000;
-    height: 100px;
-    background: rgb(255, 255, 255);;
+    border: 1px solid rgb(32, 24, 24);
+    background: rgb(146, 140, 140);
   }
 
   .navbar ul li a{
@@ -27,7 +24,11 @@ html, body {
     color: rgb(0, 0, 0);
     }
 
-  .navbar-brand{
+  .navbar-brand {
     text-decoration: none;
     color: rgb(0, 0, 0);
+    }
+
+    #mainbar .navbar-nav .nav-link {
+      color: rgb(7, 7, 7);
     }
