@@ -13,7 +13,8 @@
 
 <body>
     <nav class="navbar navbar-expand-md navbar-dark business-header">
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#mainbar" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#mainbar" aria-controls="navbarToggleExternalContent"
+            aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <a class="navbar-brand" href="#">Mikub Coding</a>
@@ -27,6 +28,16 @@
             </div>
         </div>
     </nav>
+    <div id="left" class="column">
+        <div class="top-left">
+            <ul class="">
+                <li class="nav-item"> <a class="nav-link" href="#">Blog</a></li>
+                <li class="nav-item"> <a class="nav-link" href="#">Über mich</a></li>
+                <li class="nav-item"> <a class="nav-link" href="#">Impressum</a></li>
+            </ul>
+        </div>
+        <div class="bottom"></div>
+    </div>
     {% block content %}
     {% endblock %}
 

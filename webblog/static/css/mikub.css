@@ -32,3 +32,17 @@ html, body {
     #mainbar .navbar-nav .nav-link {
       color: rgb(7, 7, 7);
     }
+
+    .column {
+
+      display: flex;
+      flex-direction: column;  /*places the left and right headers above the bottom content*/
+  }
+
+  #left {
+      flex-shrink: 0;  /*makes sure that content is not cut off in a smaller browser window*/
+  }
+
+  .top-left {
+      flex-shrink: 0;
+  }
