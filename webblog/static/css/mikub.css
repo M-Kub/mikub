@@ -33,16 +33,14 @@ html, body {
       color: rgb(7, 7, 7);
     }
 
-    .column {
-
+    #container {
       display: flex;
-      flex-direction: column;  /*places the left and right headers above the bottom content*/
-  }
+      flex-direction: row;
+      flex-wrap: wrap;
+      height: 350px;
+      align-items: flex-start;
+      }
 
-  #left {
-      flex-shrink: 0;  /*makes sure that content is not cut off in a smaller browser window*/
-  }
-
-  .top-left {
-      flex-shrink: 0;
-  }
+      .box {
+        width: 25%;
+        }
